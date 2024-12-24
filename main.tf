@@ -1,5 +1,5 @@
 module "ec2" {
-    source = "https://github.com/santoshPagire/terrafrom_ec2.git"
+    source = "git@github.com:santoshPagire/terraform_main.git"
     ami = var.ami
     instance_type = var.instance_type 
 }
